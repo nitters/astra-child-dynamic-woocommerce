@@ -1,0 +1,61 @@
+# WordPress Core Files
+*.log
+wp-config.php
+wp-content/advanced-cache.php
+wp-content/backup-db/
+wp-content/backups/
+wp-content/blogs.dir/
+wp-content/cache/
+wp-content/upgrade/
+wp-content/uploads/
+wp-content/wp-cache-config.php
+wp-content/plugins/hello.php
+
+# Hidden files
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# IDE Files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Node
+node_modules/
+npm-debug.log
+package-lock.json
+yarn.lock
+
+# Compiled Files
+*.min.css
+*.min.js
+*.map
+
+# Backup Files
+*.bak
+*.backup
+*.tmp
+
+# OS Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Desktop.ini
+
+# Development Files
+.sass-cache/
+*.css.map
+*.scss.map
+
+# Archives
+*.zip
+*.tar.gz
+*.tar
+*.rar
